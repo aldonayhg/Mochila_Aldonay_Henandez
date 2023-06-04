@@ -1,0 +1,37 @@
+--------------------
+Comando Git local
+--------------------
+git touch "Nombre del archivo.extension" --> Crea un arhivo
+git init --> Crea un reposotorio local
+git add . --> Se le da seguimiento a todos los archivos
+git add "nombre del archivo" --> Se le da el seguimiento a un archivo en específico y lo pasa al staging area
+git status --> Nos muestra el estado del repositorio en el que se está trabajando
+git commit -m "descripción o comentario" --> Confirma o commitea los archivos de que se agregaron.
+git log ---online --> Muestra de manera resumida los commits realizados
+
+--------------------
+Ramas (branches)
+--------------------
+git branch -->Enlista las ramas existentes en el repositorio
+git branch "nombre de la rama" --> Crea una nueva rama en el repositorio
+git checkout "nombre de la rama" --> Cambiarse de rama
+git switch "nombre de la rama" --> Cambiarse de rama
+git branch -D "nombre de la rama" -->Fuerza la eliminación de la rama especificada, incluso si tiene cambios sin fusionar.
+
+------------------------------
+Comandos con Github
+------------------------------
+git config "user.name" --> Configurar el usuario de Github
+git config "user.email" --> Configurar el email de Github
+git remote add origin "link del repositorio remoto" --> Vinculamos el repositorio local con el respositorio remoto
+git remote -v -->Vemos a que repositorio estamos conectado
+git remote remove origin --> Desvincula el repositorio remoto
+git pull origin main --> Baja los cambios o archivos que están en el respositorio remoto
+git push origin main --> Sube los cambio hechos en el respositorio remoto al respositorio remoto vinculado
+
+
+
+Tab --> Es muy práctico el uso del tabulador para completar los comandos.
+
+
+
